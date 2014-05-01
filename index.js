@@ -83,7 +83,7 @@ function makePoints() {
 }
 
 function animateCircle() {
-  arcTo(endAngle * pct);
+  arcTo(Math.PI * (0.5 * (Math.sin(Math.PI * 0.5 * pct))));
   pct += 0.02;
 
   if (pct >= 1)

@@ -1,0 +1,45 @@
+body {
+  font-family: "Helvetica Neue";
+  font-weight: 100;
+  font-size: 40px;
+
+}
+
+canvas {
+  float: left;
+  margin-right: 20px;
+}
+
+td {
+  padding-right: 8px;
+  text-align: center;
+}
+
+#inside {
+  border-bottom: 1px solid black;
+}
+
+#inside, #count {
+  width: 60px;
+}
+
+.name {
+  text-align: right;
+}
+
+.value {
+  text-align: left;
+}
+
+.multiplier {
+  float: left;
+}
+
+.hidden {
+  display: none;
+}
+
+.title {
+  font-size: 1.6em;
+  padding: 40px 0;
+}

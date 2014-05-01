@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>monte</title>
+    <meta name="description" content="the monte carlo method for calculating pi">
+
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body>
+    <canvas></canvas>
+
+    <div class=title>
+      THE <br/>
+      MONTE CARLO <br/>
+      METHOD
+    </div>
+
+    <table id=results class=hidden>
+      <tr>
+        <td class=name>PI</td>
+        <td>~</td>
+        <td>
+          <table>
+            <tr><td rowspan=2>4 *</td>
+            <td id=inside></td></tr>
+            <tr><td id=count></td></tr>
+          </table>
+        </td>
+        <td>~</td>
+        <td id=pi class=value></td>
+      </tr>
+
+      <tr>
+        <td class=name>ERROR</td>
+        <td>=</td>
+        <td></td>
+        <td></td>
+        <td id=error class=value></td>
+
+      </tr>
+    </table>
+
+
+    <script src="/lodash.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
+
